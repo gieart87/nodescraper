@@ -25,6 +25,12 @@ while (offset <= last_offset){
 	    console.log("Price: " + price);
 	    // console.log("Image Url: " + image_url);
 
+	    var dir = './archives';
+
+		if (!fs.existsSync(dir)){
+		    fs.mkdirSync(dir);
+		}
+		
 	    fs.appendFileSync('archives/shoptiques.txt', original_url + '\n');
 	  });
 
