@@ -1,0 +1,8 @@
+Cara Install:
+- masuk ke direktori nodescraper/
+- npm install
+
+Cara Penggunaan:
+- node shoptique.js
+
+Hasil scrap ada di direktori archives/

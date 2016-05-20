@@ -1,0 +1,12 @@
+{
+	"name": "node-scraper",
+	"version": "0.0.0",
+	"description": "Simple Web Scraper",
+	"main": "shoptiques.js",
+	"author": "Sugiarto",
+	"license": "ISC",
+	"dependencies": {
+		"cheerio": "^0.19.0",
+		"request": "^2.67.0"
+	}
+}
